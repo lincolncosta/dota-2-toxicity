@@ -1,2 +1,2 @@
-# dota-2-toxicity
-☣️ Análise de toxicidade em chats do jogo DOTA 2.
+# DOTA 2 Toxicity
+☣️ Análise de toxicidade em mensagens do jogo DOTA 2.
