@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="settingTextColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingTextColumn" type="xstring" value="force it"/>
+<config key="settingCategoryColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingCategoryColumn" type="xstring" value="0(2)"/>
+<config key="documentWeight_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="documentWeight" type="xstring" isnull="true" value=""/>
+<config key="settingNGramType_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingNGramType" type="xstring" value="Character"/>
+<config key="settingMinNGramLength_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingMinNGramLength" type="xint" value="3"/>
+<config key="settingMaxNGramLength_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingMaxNGramLength" type="xint" value="7"/>
+<config key="settingMinTermLength_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="settingMinTermLength" type="xint" value="3"/>
+<config key="settingMaxTermLength_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="settingMaxTermLength" type="xint" value="20"/>
+<config key="settingMaxTerms_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingMaxTerms" type="xint" value="800"/>
+<config key="settingCaseSensitive_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingCaseSensitive" type="xboolean" value="false"/>
+<config key="settingPadding_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="settingPadding" type="xboolean" value="false"/>
+<config key="skipGrams_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="skipGrams" type="xboolean" value="false"/>
+<config key="language_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="language" type="xstring" value="ENGLISH"/>
+<config key="removeStopwords_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="removeStopwords" type="xboolean" value="false"/>
+<config key="steam_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="steam" type="xboolean" value="false"/>
+<config key="disableMemoryWarnings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="disableMemoryWarnings" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="ws.palladian.nodes.classification.text.TextClassifierLearnerNodeFactory"/>
+<entry key="node-name" type="xstring" value="Text Classifier Learner"/>
+<entry key="node-bundle-name" type="xstring" value="Palladian for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="ws.palladian.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="palladian.ws; Philipp Katz, Klemens Muthmann, David Urbansky"/>
+<entry key="node-bundle-version" type="xstring" value="2.2.0.202005151546"/>
+<entry key="node-feature-name" type="xstring" value="Palladian for KNIME"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="ws.palladian.nodes.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="palladian.ws; Philipp Katz, Klemens Muthmann, David Urbansky"/>
+<entry key="node-feature-version" type="xstring" value="2.2.0.202005151546"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Text Classifier Learner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="ws.palladian.nodes.classification.text.TextClassifierPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="ws.palladian.nodes.classification.text.FileStoreTextClassifierPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Dictionary: 66,664 terms, 18 categories, 76,348 entries"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" value="filestore"/>
+<entry key="file_store_id" type="xstring" value="923edbb2-3016-42c2-86d0-b98730da01ba"/>
+</config>
+</config>
