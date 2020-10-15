@@ -16,3 +16,8 @@ O relatório completo está disponível [aqui](https://github.com/tekpixo/dota-2
 - Alexandre Vaz
 - Farmy Silva
 - Lincoln Costa
+
+### Trabalhos futuros
+
+- Verificar se a toxicidade está mais presente em times que estão vencendo ou perdendo.
+- Analisar a influência/impacto da toxicidade no desempenho dos jogadores.
